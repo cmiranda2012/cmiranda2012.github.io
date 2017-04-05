@@ -1,22 +1,21 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Revalia', cursive;
 }
 
 body {
-  background: #f7f7f7;
-  font-family: 'Roboto', sans-serif;
+  background: #fcfcfc;
+  font-family: 'Revalia', cursive;
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Revalia', cursive;
   font-weight: 300;
   font-size: 15px;
   line-height: 24px;
 }
 
-h1 {
-  font-size: 40px;
-  line-height: 70px;
+h2 {
+  font-family: 'Revalia', cursive;
 }
 
 nav {
@@ -66,7 +65,7 @@ nav ul li:hover:before {
 }
 
 #sticky-nav {
-  background-color: #009094;
+  background-color: #63B8FF ;
   z-index: 999;
 }
 
@@ -115,9 +114,10 @@ nav ul li:hover:before {
 #about .intro-content h2 {
   font-weight: 500;
   margin: 0px;
-  font-size: 35px;
+  font-size: 25px;
   line-height: 35px;
   opacity: 1.5;
+  color: #63B8FF;
 }
 
 #about .intro-content span {
@@ -128,7 +128,7 @@ nav ul li:hover:before {
 }
 
 #about .intro-content p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   opacity: 0.7;
   margin-bottom: 25px;
@@ -139,14 +139,18 @@ nav ul li:hover:before {
   font-weight: bold;
 }
 
+#about .intro-content a {
+  color:#63B8FF;
+}
+
 #about .intro-content i {
-  margin: 10px 35px;
+  margin: 10px 25px;
 }
 
 #about .intro-content .btn {
   border-color: inherit;
   text-transform: uppercase;
-  background-color: #009094;
+  background-color: #63B8FF ;
   margin: 10px;
   padding: 5px 30px;
 }
@@ -187,7 +191,7 @@ li {
   font-family: 'FontAwesome';
   float: left;
   margin-left: -1.5em;
-  color: #009094;
+  color: #63B8FF  ;
 }
 
 #portfolio .post-title {
@@ -236,6 +240,7 @@ li {
 
 #portfolio .content-details p {
   color: #8a8a8b;
+  font-size: 14px;
 }
 
 .a1 {
@@ -295,6 +300,15 @@ li {
   background-color: #fff;
   overflow: hidden;
   margin-bottom: 24px;
+}
+
+.cd-timeline-content p {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.cd-timeline-content span {
+  color: #63B8FF ;
 }
 
 .btn {
